@@ -405,7 +405,7 @@ footer {
     .main-four-wrapper, .main-five-wrapper, .main-six-wrapper, .main-seven-wrapper, .main-eigth-wrapper {
         scale: 70%;
     }
-    .main-three-text, .main-two, .email {
+    .main-three-text, .email {
         scale: 70%;
     }
     .main-one-right {
@@ -413,6 +413,12 @@ footer {
     }
     .auto-input, .main-one-left-header {
         font-size: 29px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .main-one {
+        gap: 0;
     }
   }
 
